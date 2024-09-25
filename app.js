@@ -107,7 +107,7 @@ const projects = [
     {
         title: "Project 2",
         description: "Website yang mengubah cursor menjadi gooey cursor yang lebih fun",
-        link: "https://github.com/ZakPro-com/Gooey-cursor"
+        link: "https://gooey-cursor.vercel.app/"
     },
     {
         title: "Project 3",
