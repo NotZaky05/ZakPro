@@ -11,18 +11,6 @@ tailwind.config = {
   }
 };
 
-document.addEventListener('click', function() {
-  if (document.documentElement.requestFullscreen) {
-    document.documentElement.requestFullscreen();
-  } else if (document.documentElement.mozRequestFullScreen) { // Untuk Firefox
-    document.documentElement.mozRequestFullScreen();
-  } else if (document.documentElement.webkitRequestFullscreen) { // Untuk Safari
-    document.documentElement.webkitRequestFullscreen();
-  } else if (document.documentElement.msRequestFullscreen) { // Untuk Internet Explorer/Edge
-    document.documentElement.msRequestFullscreen();
-  }
-});
-
 
 document.addEventListener('DOMContentLoaded', () => {
   const menu = document.querySelector('#menu');
